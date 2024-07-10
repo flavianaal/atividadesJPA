@@ -17,8 +17,6 @@ public class Agenda {
         this.descricao = descricao;
         this.pessoas = pessoas;
     }
-    
-    
 
     public String getNome() {
         return nome;

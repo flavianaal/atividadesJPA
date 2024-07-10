@@ -17,12 +17,15 @@ public class Principal {
     public static void main(String[] args) {
         
        AgendaServico agendaServico = new AgendaServico();
-       agendaServico.armazenarPessoas("Ana", 15, 1);
-       agendaServico.armazenarPessoas("Pedro", 30, 2);
-       agendaServico.armazenarPessoas("Maria", 20, 1);
+       agendaServico.armazenaPessoa("Ana", 15, 1);
+       agendaServico.armazenaPessoa("Pedro", 30, 2);
+       agendaServico.armazenaPessoa("Maria", 20, 1);
        
-       agendaServico.removerPessoa("Pedro");
-       agendaServico.imprimirAgenda();
+       agendaServico.removePessoa("Karla");
+       agendaServico.imprimePessoa(0);
+       agendaServico.buscaPessoa("Joâo");
+       agendaServico.imprimeAgenda();
+       
        
        
         
